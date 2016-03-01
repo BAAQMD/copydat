@@ -1,0 +1,9 @@
+Name: Copy data (TSV)
+Description: Copy data, serialized in TSV (tab-separated) format, to the clipboard.
+Binding: copydat_tsv
+Interactive: false
+
+Name: Copy data (RTF)
+Description: Copy data, formatted as an RTF table, to the clipboard.
+Binding: copydat_rtf
+Interactive: false
