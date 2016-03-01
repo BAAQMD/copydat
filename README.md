@@ -6,9 +6,9 @@ What is it?
 
 `copydat` lets you copy a `data.frame` to the clipboard using the ...
 
-... **RStudio GUI**. Just highlight --- in your RStudio source console --- the name of the `data.frame` you want to copy (like `iris` or `mtcars`). Click `Addins > Copy data`, and you're done. Paste away!
+... **RStudio GUI**. Just highlight (in your source console) the name of the `data.frame` you want to copy. (Examples: `iris`; `mtcars`). Click `Addins > Copy data`, and you're done. 
 
-... **R console**. Like this: `mtcars %>% Copy(dat2tsv) # or dat2rtf`
+... **R console**. Like this: `mtcars %>% Copy(dat2tsv) # or dat2rtf`. Paste away!
 
 Supported formats:
 
