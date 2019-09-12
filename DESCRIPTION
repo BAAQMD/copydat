@@ -1,20 +1,25 @@
 Package: copydat
 Title: Copy data plugins for RStudio
-Version: 0.1
+Version: 2019.09.12
 Authors@R: person("David", "Last", email = "dholstius@baaqmd.gov", role = c("aut", "cre"))
-Description: Provides "Copy Data" (TSV and RTF) plugins for RStudio.
+Description: Provides "Copy Data" (TSV, RTF, and HTML) plugins for RStudio.
 Depends:
     R (>= 3.2.0),
     rstudioapi
 Suggests:
-    rtf
+    rtf,
+    markdown,
+    testthat
 License: None
 LazyData: true
 Collate:
-    'dat2tsv.R'
     'dat2rtf.R'
+    'dat2tsv.R'
     'clipboard.R'
     'Copy.R'
     'copydat_rtf.R'
     'copydat_tsv.R'
+    'dat2html.R'
+    'dat2md.R'
     'get_dat.R'
+RoxygenNote: 6.1.0
