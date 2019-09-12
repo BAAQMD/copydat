@@ -1,3 +1,4 @@
+#' @export
 dat2rtf <- function (dat, file = "", width = 8.5, height = 11.0, omi = rep(1.0, 4), ..., sep = "\n") {
   
   suppressPackageStartupMessages(require(rtf))

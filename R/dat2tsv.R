@@ -1,3 +1,4 @@
+#' @export
 dat2tsv <- function (dat, file = "", ..., row.names = FALSE, na = "", sep = "\t") {
   
   stopifnot(is.data.frame(dat))
