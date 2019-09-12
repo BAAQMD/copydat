@@ -12,7 +12,7 @@
 #' Copy(iris)
 #' 
 #' @export
-Copy <- function (dat, fmt = dat2tsv, ...) {
+Copy <- function (dat, fmt = dat2rtf, ...) {
 
   # Other things (like matrices) might be allowable
   stopifnot(is.data.frame(dat))
